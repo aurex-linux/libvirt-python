@@ -1,0 +1,51 @@
+libvirt-python (1.2.6-0ubuntu1) utopic; urgency=medium
+
+  * New usptream release. 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Fri, 15 Aug 2014 13:24:48 -0400
+
+libvirt-python (1.2.5-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release.
+  * debian/control: Add python-nose as a build-dependency.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Wed, 18 Jun 2014 20:19:50 -0400
+
+libvirt-python (1.2.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release.
+  * debian/patches/virStream-send-regression: Dropped no longer needed.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Tue, 04 Mar 2014 13:22:21 -0500
+
+libvirt-python (1.2.1-0ubuntu2) trusty; urgency=medium
+
+  * d/p/virStream-send-regression: fix regression in send function
+    (LP: #1270588).
+
+ -- Robie Basak <robie.basak@ubuntu.com>  Thu, 23 Jan 2014 13:05:33 +0000
+
+libvirt-python (1.2.1-0ubuntu1) trusty; urgency=medium
+
+  *  New upstream release.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Thu, 16 Jan 2014 09:45:35 -0500
+
+libvirt-python (1.2.0-2ubuntu1) trusty; urgency=medium
+
+  * debian/rules: Run testsuite druing build.
+  * debian/control: Add python-lxml as a build-dependency. 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Thu, 02 Jan 2014 13:32:00 -0500
+
+libvirt-python (1.2.0-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 20 Dec 2013 08:04:18 +0100
+
+libvirt-python (1.2.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #731088)
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 02 Dec 2013 08:35:03 +0100
