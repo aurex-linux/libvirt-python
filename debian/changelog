@@ -1,3 +1,10 @@
+libvirt-python (1.2.6-0ubuntu1~glusterfs0) trusty; urgency=medium
+
+  * Rebuild for aurex 14.04 trusty just for coherence 
+    with the rest of libvirt packages
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 07 Sep 2014 03:52:56 +0200
+
 libvirt-python (1.2.6-0ubuntu1) utopic; urgency=medium
 
   * New usptream release. 
